@@ -11,11 +11,11 @@ To run this project:
 API Endpoints:
 
 1. Create Candidate (POST) : /candidates <br>
-   Request Body Type: {
-                        "name": "Peter Parker",
-                        "email": "peter@parker.com",
-                        "skill": "Spider Sense",
-                        "status": "applied"
+   Request Body Type: {  <br>
+                        "name": "Peter Parker",  <br>
+                        "email": "peter@parker.com",  <br>
+                        "skill": "Spider Sense",  <br>
+                        "status": "applied"  <br>
                       }
 
 2. Get all Candidates (GET) : /candidates
@@ -23,8 +23,8 @@ API Endpoints:
 3. Get all Candidates filtered by status (GET) : /candidates?status=interview
 
 4. Update existing Candidate status (PUT) : /candidates/{id}/status <br>
-   Request Body Type: {
-                        "status": "interview"
+   Request Body Type: {  <br>
+                        "status": "interview"  <br>
                       }
 
 As per given in the assignment only these 4 status are valid:  applied, interview, selected, rejected 
