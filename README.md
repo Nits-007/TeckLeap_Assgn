@@ -1,6 +1,6 @@
 To run this project:
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/Nits-007/TeckLeap_Assgn.git
 2. Move to the folder directory: cd TeckLeap_Assgn
 3. Create virtual environment: python -m venv venv
 4. Activate the virtual environment: venv\Scripts\activate
